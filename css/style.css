@@ -1,0 +1,41 @@
+
+.header {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    float: right;
+}
+.section {
+    background: url(../imagen/kratos.jpg);
+    background-size: cover;
+    background-color: #e2e2e2;
+    padding: 10%;
+    width: 30%;
+}
+.aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    float: right;
+}
+.article {
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    float: right;
+}
