@@ -1,35 +1,53 @@
-
+body {
+    background: url(../imagen/fondo.jpg);
+    background-size: cover;
+}
 .header {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     justify-content: center;
     text-align: center;
     display: flex;
 }
+.header:hover {
+    color: rgb(155, 34, 34);
+}
 .nav {
     background-color: #333;
-    color: white;
+    color: #fff;
     display: flex;
     justify-content: center;
     width: 100%;
-    float: right;
 }
 .section {
     background: url(../imagen/kratos.jpg);
     background-size: cover;
-    background-color: #e2e2e2;
-    padding: 10%;
-    width: 30%;
+    width: 100%;
+    color: #000;
+
 }
 .aside {
-    background-color: #f4f4f4;
-    padding: 20px;
-    width: 30%;
-    float: right;
+    font-size: 170%;
+    justify-content: left;
+    align-content: center;
+    background-color: rgb(102, 32, 32);
+    color: white;
+    width: 40%;
+    float: left;
+    padding: 8%;
+}
+.aside:hover{
+    background: url(../imagen/cambio.jpg);
+    background-size: cover;
+    text-shadow: rgb(255, 255, 255) 0.5px 0.5px 0.8px;
 }
 .article {
-    background-color: #e2e2e2;
-    padding: 20px;
+    background: url(../imagen/horizontal.jpg);
+    background-size: cover;
+    background-color: rgb(182, 20, 20);
+    padding: 40px;
+    margin-block-end: 20px;
+    color: white;
 }
 .footer {
     background-color: #333;
@@ -38,4 +56,10 @@
     justify-content: center;
     width: 100%;
     float: right;
+
+}
+.main {
+    display: flex;
+    width: 100%;
+    margin-block-end: 20px;
 }
